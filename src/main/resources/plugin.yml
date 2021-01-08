@@ -1,0 +1,16 @@
+name: Userinfo
+version: ${project.version}
+main: tokyo.peya.plugins.userinfo.Userinfo
+softdepend: [PeyangSuperbAnticheat, PeyangGreatBanManager]
+authors: [Peyang]
+description: View the player userinfo
+website: https://github.com/psac-serve
+
+commands:
+  userinfo:
+    description: プレイヤーの情報を閲覧します。
+
+permissions:
+  userinfo.view:
+    default: op
+    description: プレイヤーの情報を閲覧します。
